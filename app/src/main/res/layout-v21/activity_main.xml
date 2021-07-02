@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="242dp"
+            android:layout_height="78dp"
+            android:layout_marginStart="24pt"
+            android:layout_marginLeft="24pt"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="139.2pt"
+            android:layout_marginRight="139.2pt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.034"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/logo"
+            tools:ignore="MissingConstraints,VectorDrawableCompat" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="645dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.35"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:srcCompat="@drawable/main_page" />
+
+        <ImageView
+            android:id="@+id/group1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/register_btn_id"
+            app:srcCompat="@drawable/group1" />
+
+
+        <ImageView
+            android:id="@+id/group2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group1desc"
+            app:srcCompat="@drawable/group2" />
+
+        <ImageView
+            android:id="@+id/group4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group3desc"
+            app:srcCompat="@drawable/group4" />
+
+        <ImageView
+            android:id="@+id/group5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/group5"
+            app:layout_constraintTop_toBottomOf="@+id/group4desc" />
+
+        <ImageView
+            android:id="@+id/group6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group5desc"
+            app:srcCompat="@drawable/group6" />
+
+        <ImageView
+            android:id="@+id/group7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group6desc"
+            app:srcCompat="@drawable/group7" />
+
+        <ImageView
+            android:id="@+id/group8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group7desc"
+            app:srcCompat="@drawable/group8" />
+
+        <View
+            android:id="@+id/view_1"
+            android:layout_width="321dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="48dp"
+            android:background="@color/white_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/social_images_layout" />
+
+        <ImageView
+            android:id="@+id/logo_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.352"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/view_1"
+            app:srcCompat="@drawable/ic_page_logo"
+            tools:ignore="VectorDrawableCompat" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="@id/view_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo_bottom">
+
+
+            <LinearLayout
+                android:id="@+id/linear_layout_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="About Us."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="Team."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="Reach Us."
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_layout_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="Affiliattions."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="Disclaimers."
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
+                    android:text="Privacy Policy."
+                    android:textColor="@color/black" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_2"
+            android:layout_width="321dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="48dp"
+            android:background="@color/teal_200"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_1"
+            tools:ignore="VectorDrawableCompat" />
+
+        <LinearLayout
+            android:id="@+id/linear_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="64dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linear_layout_1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/copy_symbol" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/barlow_condensed_light"
+                android:text="Content Copyrights Reserved"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="center_horizontal"
+            android:text="Lorem ipsum dolor sit amet, consectetur \n adipiscing elit"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+        <Button
+            android:id="@+id/register_btn_id"
+            style="@style/Theme.Binaryveda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/tomato"
+            android:drawableLeft="@drawable/ic_right_arrow_forward_24"
+            android:text="Register"
+            android:fontFamily="@font/barlow_condensed_extra_light"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toTopOf="@+id/group1"
+            app:layout_constraintEnd_toEndOf="@+id/textView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_extra_light"
+            android:text="me as a collector"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/register_btn_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/register_btn_id"
+            app:layout_constraintTop_toTopOf="@+id/register_btn_id" />
+
+        <TextView
+            android:id="@+id/track_text_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:drawableLeft="@drawable/ic_right_arrow_forward_24"
+            android:drawableTint="@color/conflower_blue"
+            android:text="track my application"
+            android:textColor="@color/conflower_blue"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toTopOf="@+id/group1"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="@+id/register_btn_id"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+        <ImageView
+            android:id="@+id/group3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:scaleType="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.184"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group2desc"
+            app:srcCompat="@drawable/group3" />
+
+<!--        group 1-->
+
+        <TextView
+            android:id="@+id/group1title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/group1desc"
+            app:layout_constraintEnd_toEndOf="@+id/group1"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group1"
+            app:layout_constraintTop_toBottomOf="@+id/group1"
+             />
+
+        <TextView
+            android:id="@+id/group1desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toTopOf="@+id/group2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/group1title"
+            app:layout_constraintTop_toBottomOf="@+id/group1title" />
+
+<!--        group 2-->
+        <TextView
+            android:id="@+id/group2title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/group2desc"
+            app:layout_constraintEnd_toEndOf="@+id/group2"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group2"
+            app:layout_constraintTop_toBottomOf="@+id/group2" />
+
+        <TextView
+            android:id="@+id/group2desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="76dp"
+            android:layout_marginRight="76dp"
+            android:layout_marginBottom="59dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toTopOf="@+id/group3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/group2title"
+            app:layout_constraintTop_toBottomOf="@+id/group2title" />
+
+<!--        group 3-->
+        <TextView
+            android:id="@+id/group3title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group3"
+            app:layout_constraintTop_toBottomOf="@+id/group3" />
+
+        <TextView
+            android:id="@+id/group3desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group3title"
+            app:layout_constraintTop_toBottomOf="@+id/group3title" />
+
+
+<!--        group 4-->
+        <TextView
+            android:id="@+id/group4title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group4"
+            app:layout_constraintTop_toBottomOf="@+id/group4" />
+
+        <TextView
+            android:id="@+id/group4desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group4title"
+            app:layout_constraintTop_toBottomOf="@+id/group4title" />
+
+
+<!--        group 5-->
+        <TextView
+            android:id="@+id/group5title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group5"
+            app:layout_constraintTop_toBottomOf="@+id/group5" />
+
+        <TextView
+            android:id="@+id/group5desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group5title"
+            app:layout_constraintTop_toBottomOf="@+id/group5title" />
+
+
+<!--    group 6-->
+        <TextView
+            android:id="@+id/group6title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group6"
+            app:layout_constraintTop_toBottomOf="@+id/group6" />
+
+        <TextView
+            android:id="@+id/group6desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group6title"
+            app:layout_constraintTop_toBottomOf="@+id/group6title" />
+
+<!--        group 7-->
+
+        <TextView
+            android:id="@+id/group7title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group7"
+            app:layout_constraintTop_toBottomOf="@+id/group7" />
+
+        <TextView
+            android:id="@+id/group7desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group7title"
+            app:layout_constraintTop_toBottomOf="@+id/group7title" />
+
+<!--        group 8-->
+        <TextView
+            android:id="@+id/group8title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:text="lorem ipsum \n is used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintEnd_toEndOf="@+id/group3"
+            app:layout_constraintHorizontal_bias="0.037"
+            app:layout_constraintStart_toStartOf="@+id/group8"
+            app:layout_constraintTop_toBottomOf="@+id/group8" />
+
+        <TextView
+            android:id="@+id/group8desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp"
+            android:fontFamily="@font/barlow_extralight"
+            android:gravity="start|top"
+            android:maxWidth="289dp"
+            android:text="@string/group_text"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/group8title"
+            app:layout_constraintTop_toBottomOf="@+id/group8title" />
+
+        <LinearLayout
+            android:id="@+id/social_images_layout"
+            android:layout_width="321dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/group8desc"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/facebook" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/instagram"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
